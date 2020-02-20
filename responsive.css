@@ -25,10 +25,8 @@
 }
 
  }
- 
 
-
-    @media screen and (max-width:787px){
+    @media screen and (max-width:767px){
 
 
         .inner{
@@ -79,8 +77,6 @@
            margin-bottom: 20px;
 
        }
-
-    
 
        .mv-txt-2 br{
            display: block;
@@ -188,6 +184,10 @@
            margin: 0 auto;
        }
 
+       .news-txt-box{
+           width: 92%;
+       }
+
        .news-txt{
            margin: 24px 0 18px;
        }
@@ -234,23 +234,91 @@
            margin-top: 40px;
        }
 
+       @media screen and (max-width:450px){
+        
+        .about-ttl .line{
+            margin: 18px 20px 0 0;
+        }
+
+        .about-ttl .line-2{
+            margin: 18px 0 0 20px;
+        }
+       }
 
        
 
-    @media screen and (max-width:320px){
+    @media screen and (max-width:375px){
+
+
+        .inner{
+            align-items: center;
+        }
+
+
+        .heading-left h1 {
+            width: 110px;
+        }
+
+
+        .mv-txt-1{
+            width: 196px;
+            font-size: 28px;
+        }
+
+        .mv {
+            padding: 10px 0 100px;
+        }
+
+        .mv-txt-2{
+            width: 300px;
+        }
+
+        .survice-img{
+            width: 200px;
+            height: 200px;
+        }
+
+
+        .news-txt-box{
+            width: 92%;
+        }
+
+        .about-box-2{
+        margin-bottom: 0px;
+        }
+
+        .more-3{
+            margin-top: 50px;
+        }
+
+        .service-ttl h2{
+            margin-bottom: 80px;
+            font-size: 28px;
+        }
+
+        .news-box img {
+            width: 80%;
+            height: 168px;
+        }
+
+        time{
+            margin-right: 16px;
+        }
+
+        .category {
+        margin-top: 18px;
+        }
+
+        .news-thema{
+            margin-top: 22px;
+        }
+
 
        .about-txt-2{
            margin-left: 0;
        }
 
-       .heading-left h1{
-           width: 110px;
-       }
-
-       .service-ttl h2{
-           font-size: 28px;
-       }
-
+       
        .service-ttl .line2{
            margin: 14px 0 0 18px;
        }
@@ -269,7 +337,11 @@
 
       .about-ttl .line-2{
         margin: 14px 0 14px 16px;
-      }      
+      }    
+      
+      .about-box-1{
+          margin-top: 80px;
+      }
 
       .about-ttl h2{
         font-size: 28px;
@@ -279,6 +351,15 @@
         font-size: 28px;
       }
 
+      .line1 {
+        margin-top: 80px;
+       }
+
+       .news-inner {
+        margin-top: 80px;
+       }
+
+
       .news-ttl .line{
         margin: 14px 16px 14px 0;
       }
@@ -286,16 +367,5 @@
       .news-ttl .line-2{
         margin: 14px 0 14px 16px;
       }
-
-
-
-
-
-      
-
-
     }
-
     
-
-
