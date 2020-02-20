@@ -82,6 +82,7 @@ body {
     font-size: 16px;
     line-height: 1.7;
     margin-bottom: 40px;
+    width: 400px;
 }
 
 
@@ -265,7 +266,7 @@ body {
 }
 
 .more-2{
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
  /* .about-img-2{
@@ -291,7 +292,7 @@ body {
      /* height: 97px; */
      line-height: 1.7;
      font-size: 16px;
-     margin-top: 15px;
+     margin-top: 30px;
  }
 
 .news a{
