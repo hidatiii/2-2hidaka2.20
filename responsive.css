@@ -7,23 +7,6 @@
     }
 
 
-
-.recruit-txt p{
-    font-size: 1.4814814814814814vw;
-}
-
-.about-txt-1 p{
-    font-size: 1.4vw;
-}
-
-.news-txt{
-    font-size: 1.4vw;
-}
-
-.news-thema{
-    font-size: 1.4vw;
-}
-
  }
 
     @media screen and (max-width:767px){
@@ -38,7 +21,7 @@
         }
 
         .mv{
-            padding-top: 10px;
+            padding: 10px 0 100px;
         }
 
 
@@ -95,6 +78,25 @@
         white-space: nowrap;
        }
 
+       h2::before,
+       h2::after{
+        width: 100px;
+    }
+
+    .section-ttl{
+        margin-bottom: 80px;
+    }
+
+    .section-ttl::before {
+        margin-right: 20px;
+        padding-left: 15px;
+    }
+    
+    .section-ttl::after {
+        margin-left: 20px;
+        padding-right: 15px;
+    }
+
        .service-contents{
            flex-direction: column;
        }
@@ -113,8 +115,17 @@
            margin-right: auto;
        }
 
+       .survice-img-card p{
+           margin-bottom: 50px;
+       }
+
+       .about{
+           margin-top: 50px;
+       }
+
        .about-box-1{
            flex-direction: column;
+           margin-top: 0;
            max-width: 450px;
            width:100%;
            margin-left:auto;
@@ -236,6 +247,11 @@
 
        @media screen and (max-width:450px){
         
+
+        h2{
+            font-size: 28px;
+        }
+
         .about-ttl .line{
             margin: 18px 20px 0 0;
         }
@@ -243,6 +259,24 @@
         .about-ttl .line-2{
             margin: 18px 0 0 20px;
         }
+
+        .section-ttl{
+            font-size: 2.8rem;
+        }
+
+        .section-ttl::before{
+            margin-right: 20px;
+        }
+
+        .section-ttl::after{
+            margin-left: 20px;
+        }
+
+
+        h2 ::before{
+            flex-grow: 0.3;
+        }
+
        }
 
        
@@ -291,9 +325,8 @@
             margin-top: 50px;
         }
 
-        .service-ttl h2{
+        h2{
             margin-bottom: 80px;
-            font-size: 28px;
         }
 
         .news-box img {
@@ -367,5 +400,7 @@
       .news-ttl .line-2{
         margin: 14px 0 14px 16px;
       }
+
+    
     }
     
